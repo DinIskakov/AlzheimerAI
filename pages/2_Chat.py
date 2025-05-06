@@ -2,7 +2,8 @@ import streamlit as st
 from agents.companion import CognitiveCareAgent
 
 
-st.title("💬 CognitiveCare AI Chat")
+
+st.title("💬 Valeria AI Chat")
 
 # Check if user has registered
 if "user_profile" not in st.session_state:
